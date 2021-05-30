@@ -3,17 +3,12 @@
     padding: 0;
 }
 body{
-    background-image: url("asset/Homepage-background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.master-container{
     width: 80%;
     position: relative;
     margin: 0 auto;
-    /* background-image: url("asset/Homepage-background.jpg");
+    background-image: url("asset/Homepage-background.jpg");
     background-size: cover;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
 }
 .navbar{
     position: relative;
@@ -85,6 +80,6 @@ body{
 @media screen and(max-width: 1000px) {
     /* this interactive still fails*/
     .body{
-        background-color: red;
+        width: 100%;
     }
 }
