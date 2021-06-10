@@ -1,0 +1,332 @@
+#bg1 {
+    position: absolute;
+    left: 0%;
+}
+
+#bg1 img {
+    width: 100%;
+}
+
+#overlay {
+    background-color: rgba(60, 34, 102);
+    position: absolute;
+    width: 100%;
+    height: 99%;
+    opacity: 0.5;
+}
+
+#pt1 {
+    margin: 0 10%;
+    margin-top: 8%;
+    padding: 10px 10px;
+    position: relative;
+}
+
+#welcome {
+    color: #9482FF;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#txt1 {
+    color: #FFFFFF;
+    font-size: 40px;
+    padding: 0%;
+}
+
+#txt2 {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+#line1 {
+    margin-right: 88%;
+    text-align: left;
+    border: 2px #9482FF solid;
+}
+
+#pt2  {
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 6%;
+    left: 15%;
+    background-color: #3C2266;
+    width: 68%;
+    padding: 20px 0px;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#event1 {
+    background-image: url("asset/Lina.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    border-radius: 5px;
+}
+
+#left {
+    height: 152px;
+    width: 160px;
+    padding: 26px 42px;
+}
+
+#overlay1 {
+    background: rgba(148, 130, 255, 0.5);
+    border-radius: 5px;
+}
+
+#event2 {
+    background-image: url("asset/Templar.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+}
+
+#mid {
+    height: 152px;
+    width: 160px;
+    padding: 26px 42px;
+}
+
+#event3 {
+    background-image: url("asset/Faceless-Void.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+}
+
+#right {
+    height: 152px;
+    width: 160px;
+    padding: 26px 42px;
+}
+
+#txt3 {
+    font-size: 50px;
+    text-align: center;
+    margin: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: #3C2266;
+    font-weight: bold;
+}
+
+#whole-slider {
+    display: flex;
+    justify-content: space-around;
+}
+
+#prev {
+    margin-top: 8%;
+}
+
+#next {
+    margin-top: 8%;
+}
+
+#prev img {
+    width: 30px;
+    height: 30px;
+}
+
+#next img {
+    width: 30px;
+    height: 30px;
+}
+
+#slider {
+    width: 800px;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+#IS {
+    display: flex;
+    width: 2400px;
+}
+
+#slides {
+    display: flex;
+    width: 800px;
+}
+
+#slides img{
+    width: 400px;
+    height: 250px;
+}
+
+#txt4 {
+    margin-left: 5%;
+    margin-top: 2%;
+    color: #3C2266;
+}
+
+#subtitle {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#caption {
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+#whole-slider button {
+    height: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    width: 28px;
+    margin-top: 8%;
+    color: white;
+    border: none;
+    background-color: #3C2266;
+    border-radius: 100%;
+}
+
+#viewall {
+    margin-top: 50px;
+    background-image: url("asset/Heroes-Background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: -10px;
+    width: 102%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#overlay2 {
+    padding: 20px 20px;
+    background: rgba(60, 34, 102, 0.5);
+}
+
+#txt5 {
+    font-size: 20px;
+}
+
+#txt6 {
+    font-size: 60px;
+}
+
+#txt7 {
+    padding: 0px 20%;
+    font-size: 20px;
+}
+
+
+#viewall button {
+    background: none;
+    padding: 10px 10px;
+    font-size: 20px;
+    border: solid;
+    border-radius: 5px;
+    border-color: #9482FF;
+    color: #9482FF;
+    cursor: pointer;
+}
+
+#hero-type {
+    left: -10px;
+    width: 102%;
+    position: relative;
+    background-color: #3C2266;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+#intelligence {
+    background-image: url("asset/Storm-Spirit.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    width: 288px;
+    height: 342px;
+}
+
+#Agility {
+    background-image: url("asset/Medusa.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    width: 288px;
+    height: 342px;
+}
+
+#Strength {
+    background-image: url("asset/Pudge.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    width: 288px;
+    height: 342px;
+}
+
+#overlay3 {
+    background: rgba(60, 34, 102, 0.5);
+    height: 100%;
+    border-radius: 5px;
+    display: none;
+}
+
+#overlay4 {
+    background: rgba(60, 34, 102, 0.5);
+    height: 100%;
+    border-radius: 5px;
+    display: none;
+}
+
+#overlay5 {
+    background: rgba(60, 34, 102, 0.5);
+    height: 100%;
+    border-radius: 5px; 
+    display: none;
+}
+
+#sub {
+    padding: 20px 20px;
+    display: flex;
+    font-size: 30px;
+}
+
+#sub img {
+    height: 30px;
+    width: 30px;
+}
+
+#txt8 {
+    padding: 20px 20px;
+    padding-top: 0%;
+    font-size: 20px;
+}
+
+#txt9 {
+    padding: 20px 20px;
+    font-size: 20px;
+    padding-top: 0%;
+}
+
+#txt10 {
+    padding: 20px 20px;
+    font-size: 20px;
+    padding-top: 0%;
+}
+
+#gradient {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%);
+    height: 50px;
+    width: 100%;
+    position: absolute;
+}
