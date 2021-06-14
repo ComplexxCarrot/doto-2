@@ -75,6 +75,7 @@
     position: relative;
     font-size: 25px;
     padding: 5px;
+    padding-left: 12px;
     bottom: 10px;
     margin-left: 10%;
 }
@@ -113,4 +114,120 @@
     text-align: center;
     padding: 10px 0px;
     font-size: 15px;
+}
+
+@media only screen and (max-width: 800px) {
+    #header1 {
+        list-style: none;
+        text-decoration: none;
+        display: flex;
+        position: relative;
+        width: 100%;
+        margin-top: 30px;
+        font-size: 12px;
+        justify-content: space-evenly;
+    }
+    
+    #header {
+        margin-bottom: 20px;
+        margin-top: -1%;
+        position: relative;
+        justify-content: space-evenly;
+        background-image: url("asset/Homepage-background.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        right: 1%;
+        width: 102%;
+    }
+    
+    #overlay0 {
+        width: 102%;
+        background-color: rgba(60, 34, 102, 0.5);
+        right: 1%;
+        padding-top: 1%;
+    }
+    
+    #Doto-2 {
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 2%;
+        padding-bottom: 5%;
+        font-size: 15px;
+    }
+    
+    #header1 img {
+        height: 16px;
+        width: auto;
+    }
+    
+    #header1 a {
+        text-decoration: none;
+        position: relative;
+        color: #FFFFFF;
+        font-family: poppins;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px;
+        width: 100px;
+        font-size: 12px;
+    }
+    
+    #header a:hover {
+        color: lightgray;
+    }
+    
+    #register {
+        border-style: solid;
+        border-color: white;
+        list-style: none;
+        display: flex;
+        text-align: center;
+        border-radius: 5px;
+        position: relative;
+        padding: 0px 5px;
+    }
+    
+    #register a {
+        font-size: 13px;
+    }
+    
+    #register img {
+        width: auto;
+        height: 16px;
+        margin-top: 7%;
+    }
+    
+    #footer {
+        margin-top: 32px;
+        position: relative;
+        background: #3c2266;
+        right: 1%;
+        width: 102%;
+        padding-top: 1px;
+    }
+    
+    #Rectangle {
+        width: 20%;
+        left: 40%;
+        height: 25px;
+        background-color: #9482ff;
+        position: relative;
+        margin-top: 10px;
+    }
+    
+    #Social-Media {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 10px;
+        margin: 0px 50%;
+    }
+    
+    #copyright {
+        color: #FFFFFF;
+        text-align: center;
+        padding: 10px 0px;
+        font-size: 8px;
+    }
+    
 }

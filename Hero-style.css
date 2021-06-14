@@ -59,7 +59,7 @@ hr {
     position: relative;
 }
 
-#Sven, #Anti-Mage, #Invoker, #Pudge, #Medusa, #Storm-Spirit, #Wraith-King, #Drow-Ranger, #Zeus {
+.Sven, #Anti-Mage, #Invoker, #Pudge, #Medusa, #Storm-Spirit, #Wraith-King, #Drow-Ranger, #Zeus {
     width: 288px;
     height: 342px;
     border-radius: 5px;
@@ -147,4 +147,140 @@ hr {
 
 #Zeus {
     background-image: url("asset/Zeus.jpg");
+}
+
+@media only screen and (max-width: 800px) {
+    /* For mobile phones: */
+    p {
+        color: white;
+    }
+    
+    #Doto-2 {
+        font-size: 27px;
+        font-family: Bld;
+        font-weight: bold;
+    }
+    
+    hr {
+        color: #9482FF;
+        margin: 0px 40%;
+        border: solid 2px;
+    }
+    
+    #subtitle {
+        text-align: center;
+        color: #3c2266;
+    }
+    
+    #title1 {
+        font-size: 8px;
+    }
+    #title2 {
+        font-size: 25px;
+        margin-top: -1%;
+        font-family: semibold;
+        font-weight: bold;
+    }
+    
+    #row1, #row2, #row3 {
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 9%;
+        margin-left: 10%;
+    }
+    
+    #name {
+        display: flex;
+        position: relative;
+    }
+    
+    #Sven, #Anti-Mage, #Invoker, #Pudge, #Medusa, #Storm-Spirit, #Wraith-King, #Drow-Ranger, #Zeus {
+        width: 142px;
+        height: 166px;
+        border-radius: 5px;
+        border: #3c2266 solid;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #Sven {
+        background-image: url("asset/Sven.jpg");
+        background-position: center;
+    }
+    
+    #txt1, #txt2, #txt3, #txt4, #txt5, #txt6, #txt7, #txt8, #txt9 {
+        top: 76%;
+        text-align: center;
+        font-size: 14px;
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        color: white;
+        position: relative;
+        background-color: #3c2266;
+        background-size: cover;
+    }
+    
+    
+    #content1 img, #content2 img, #content3 img {
+        width: 16px;
+        height: 16px;
+        margin-top: 3px;
+        margin-right: 5px;
+    }
+    
+    #overlay1, #overlay2, #overlay3, #overlay4, #overlay5, #overlay6, #overlay7, #overlay8, #overlay9 {
+        display: none;
+        position: absolute;
+        background-color: rgba(60, 34, 102, 0.7);
+        width: 142px;
+        height: 166px;
+    }
+    
+    #hov1, #hov2, #hov3, #hov4, #hov5, #hov6, #hov7, #hov8, #hov9 {
+        display: none;
+        color: white;
+        font-size: 8px;
+        text-align: center;
+        padding: 10px 10px;
+    }
+    
+    #Anti-Mage {
+        background-image: url("asset/Anti-mage.jpg");
+        background-position: center;
+    }
+    
+    #Invoker {
+        background-image: url("asset/Invoker.jpg");
+        background-position: center;
+    }
+    
+    #Pudge {
+        background-image: url("asset/Pudge.jpg");
+        background-position: center;
+    }
+    
+    #Medusa {
+        background-image: url("asset/Medusa.jpg");
+        background-position: center;
+    }
+    
+    #Storm-Spirit {
+        background-image: url("asset/Storm-Spirit.jpg");
+        background-position: center;
+    }
+    
+    #Wraith-King {
+        background-image: url("asset/Wraith-King.png");
+        background-position: center;
+    }
+    
+    #Drow-Ranger {
+        background-image: url("asset/Drow-Ranger.jpg");
+        background-position: center;
+    }
+    
+    #Zeus {
+        background-image: url("asset/Zeus.jpg");
+    }
 }

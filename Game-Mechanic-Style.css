@@ -40,3 +40,29 @@ body {
     font-family: semibold;
 }
 
+#part1 {
+    margin-top: 2%;
+}
+
+#Basic-Doto-Control {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#Para1 {
+    margin-top: 2%;
+    width: 40%;
+}
+
+#image1 {
+    position: relative;
+    margin-top: 2%;
+}
+
+#image1 img {
+    width: 400px;
+    height: auto;
+}
