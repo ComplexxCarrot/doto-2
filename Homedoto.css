@@ -50,7 +50,7 @@
     position: relative;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 6%;
+    margin-top: 2%;
     left: 15%;
     background-color: #3C2266;
     width: 68%;
@@ -67,6 +67,10 @@
     background-position: center;
     position: relative;
     border-radius: 5px;
+}
+
+#left, #mid, #right {
+    font-size: 18px;
 }
 
 #left {
@@ -123,20 +127,12 @@
     justify-content: space-around;
 }
 
-#prev {
+#prev, #next {
     margin-top: 8%;
 }
 
-#next {
-    margin-top: 8%;
-}
 
-#prev img {
-    width: 30px;
-    height: 30px;
-}
-
-#next img {
+#prev img, #next img {
     width: 30px;
     height: 30px;
 }
@@ -297,7 +293,7 @@
 #sub {
     padding: 20px 20px;
     display: flex;
-    font-size: 30px;
+    font-size: 22px;
 }
 
 #sub img {
@@ -305,22 +301,10 @@
     width: 30px;
 }
 
-#txt8 {
+#txt8, #txt9, #txt10 {
     padding: 20px 20px;
     padding-top: 0%;
-    font-size: 20px;
-}
-
-#txt9 {
-    padding: 20px 20px;
-    font-size: 20px;
-    padding-top: 0%;
-}
-
-#txt10 {
-    padding: 20px 20px;
-    font-size: 20px;
-    padding-top: 0%;
+    font-size: 16px;
 }
 
 #gradient {

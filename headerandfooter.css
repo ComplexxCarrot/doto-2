@@ -1,3 +1,9 @@
+body {
+    font-family: poppins;
+    background: rgba(148, 130, 255, 0.4);
+    position: relative;
+}
+
 #header1 {
     list-style: none;
     text-decoration: none;
@@ -9,19 +15,6 @@
     justify-content: space-evenly;
 }
 
-#header1 #register {
-    border-style: solid;
-    border-color: white;
-    list-style: none;
-    display: flex;
-    text-align: justify;
-    position: relative;
-    font-size: 25px;
-    padding: 15px;
-    bottom: 10px;
-    margin-left: 10%;
-}
-
 #header {
     display: flex;
     margin-bottom: 20px;
@@ -30,9 +23,10 @@
     justify-content: space-evenly;
 }
 
-#steam {
+#register img {
     width: auto;
     height: 35px;
+    margin-bottom: 2px;
 }
 
 #header1 img {
@@ -63,4 +57,22 @@
 
 #header a:hover {
     color: lightgray;
+}
+
+#register {
+    border-style: solid;
+    border-color: white;
+    list-style: none;
+    display: flex;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    font-size: 25px;
+    padding: 5px;
+    bottom: 10px;
+    margin-left: 10%;
+}
+#register a {
+    top: 2px;
+    font-size: 24px;
 }
