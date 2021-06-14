@@ -26,12 +26,6 @@ body {
     justify-content: space-evenly;
 }
 
-#register img {
-    width: auto;
-    height: 35px;
-    margin-bottom: 2px;
-}
-
 #header1 img {
     height: 35px;
     width: auto;
@@ -75,7 +69,11 @@ body {
     bottom: 10px;
     margin-left: 10%;
 }
-#register img{
+
+#register img {
+    width: auto;
+    height: 35px;
+    margin-bottom: 2px;
     padding-left: 10px;
 }
 #register a {

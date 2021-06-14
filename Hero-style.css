@@ -17,6 +17,7 @@ body {
     font-family: Poppins;
     background: rgba(148, 130, 255, 0.4);
     position: relative;
+    overflow-x:hidden;
 }
 
 p {

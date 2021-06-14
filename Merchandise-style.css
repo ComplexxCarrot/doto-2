@@ -1,12 +1,25 @@
-#header1 {
-    list-style: none;
-    text-decoration: none;
-    display: flex;
+@font-face {
+    font-family: Poppins;
+    src: url("asset/Poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: semibold;
+    src: url("asset/Poppins/Poppins-SemiBoldItalic.ttf");
+}
+
+@font-face {
+    font-family: Bld;
+    src: url("asset/Poppins/Poppins-Bold.ttf");
+}
+
+body {
+    font-family: Poppins;
+    background: rgba(148, 130, 255, 0.4);
     position: relative;
-    width: 100%;
-    margin-top: 30px;
-    font-size: 16px;
-    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
 }
 
 #header {
@@ -29,25 +42,16 @@
     padding-top: 1%;
 }
 
-#register img {
-    width: auto;
-    height: 35px;
-    margin-bottom: 2px;
+#header1 {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 16px;
+    justify-content: space-evenly;
 }
-
-#Doto-2 {
-    text-align: center;
-    color: #FFFFFF;
-    padding-top: 2%;
-    padding-bottom: 5%;
-    font-size: 30px;
-}
-
-#header1 img {
-    height: 35px;
-    width: auto;
-}
-
 #header1 a {
     text-decoration: none;
     position: relative;
@@ -57,14 +61,15 @@
     font-weight: 600;
     line-height: 30px;
     width: 200px;
-    font-size: 18px;
+}
+#header1 img {
+    height: 35px;
+    width: auto;
 }
 
 #header a:hover {
     color: lightgray;
 }
-
-
 #register {
     border-style: solid;
     border-color: white;
@@ -78,12 +83,36 @@
     bottom: 10px;
     margin-left: 10%;
 }
-#register img{
+
+#register img {
+    width: auto;
+    height: 35px;
+    margin-bottom: 2px;
     padding-left: 10px;
 }
 #register a {
     top: 2px;
     font-size: 24px;
+}
+
+#Doto-2 {
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    font-size: 30px;
+}
+
+#Doto-2 {
+    font-size: 54px;
+    font-family: Bld;
+    font-weight: bold;
+}
+
+hr {
+    color: #9482FF;
+    margin: 0px 35%;
+    border: solid 2px;
 }
 
 #footer {
