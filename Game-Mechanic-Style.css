@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Poppins;
+    src: url("asset/Poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: semibold;
+    src: url("asset/Poppins/Poppins-SemiBoldItalic.ttf");
+}
+
+@font-face {
+    font-family: Bld;
+    src: url("asset/Poppins/Poppins-Bold.ttf");
+}
+
+body {
+    font-family: Poppins;
+    background: rgba(148, 130, 255, 0.4);
+    position: relative;
+}
+
+#Doto-2 {
+    font-family: Bld;
+    font-weight: bold;
+    font-size: 54px;
+}
+
+#subtitle hr {
+    color: #9482FF;
+    margin: 0px 35%;
+}
+
+#subtitle {
+    text-align: center;
+    color: #3c2266;
+}
+
+#title2 {
+    font-size: 50px;
+    font-family: semibold;
+}
+

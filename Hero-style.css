@@ -1,20 +1,38 @@
+@font-face {
+    font-family: Poppins;
+    src: url("asset/Poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: semibold;
+    src: url("asset/Poppins/Poppins-SemiBoldItalic.ttf");
+}
+
+@font-face {
+    font-family: Bld;
+    src: url("asset/Poppins/Poppins-Bold.ttf");
+}
+
 body {
     font-family: Poppins;
     background: rgba(148, 130, 255, 0.4);
     position: relative;
 }
 
-#Doto-2 {
-    font-weight: bold;
+p {
+    color: white;
 }
 
-p {
-    color: #9482FF;
+#Doto-2 {
+    font-size: 54px;
+    font-family: Bld;
+    font-weight: bold;
 }
 
 hr {
     color: #9482FF;
     margin: 0px 35%;
+    border: solid 2px;
 }
 
 #subtitle {
@@ -22,14 +40,11 @@ hr {
     color: #3c2266;
 }
 
-#title1 {
-    font-weight: bold;
-}
-
 #title2 {
     font-size: 50px;
-    font-weight: bolder;
-    font-style: oblique;
+    margin-top: -1%;
+    font-family: semibold;
+    font-weight: bold;
 }
 
 #row1, #row2, #row3 {
