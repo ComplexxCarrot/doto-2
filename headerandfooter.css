@@ -2,6 +2,9 @@ body {
     font-family: poppins;
     background: rgba(148, 130, 255, 0.4);
     position: relative;
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
 }
 
 #header1 {
@@ -21,12 +24,6 @@ body {
     position: relative;
     padding: 5px;
     justify-content: space-evenly;
-}
-
-#register img {
-    width: auto;
-    height: 35px;
-    margin-bottom: 2px;
 }
 
 #header1 img {
@@ -72,6 +69,13 @@ body {
     padding-left: 13px;
     bottom: 10px;
     margin-left: 10%;
+}
+
+#register img {
+    width: auto;
+    height: 35px;
+    margin-bottom: 2px;
+    padding-left: 10px;
 }
 #register a {
     top: 2px;
