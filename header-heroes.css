@@ -38,11 +38,12 @@
 }
 
 #Doto-2 {
+    font-family: Bld;
     text-align: center;
     color: #FFFFFF;
     padding-top: 2%;
     padding-bottom: 5%;
-    font-size: 30px;
+    font-size: 54px;
 }
 
 #header1 img {
@@ -55,7 +56,6 @@
     position: relative;
     color: #FFFFFF;
     font-family: poppins;
-    font-style: normal;
     font-weight: 600;
     line-height: 30px;
     width: 200px;

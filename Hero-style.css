@@ -16,18 +16,11 @@
 body {
     font-family: Poppins;
     background: rgba(148, 130, 255, 0.4);
-    position: relative;
-    overflow-x:hidden;
+    text-align: justify;
 }
 
 p {
     color: white;
-}
-
-#Doto-2 {
-    font-size: 54px;
-    font-family: Bld;
-    font-weight: bold;
 }
 
 hr {

@@ -16,14 +16,7 @@
 body {
     font-family: Poppins;
     background: rgba(148, 130, 255, 0.4);
-    position: relative;
     text-align: justify;
-}
-
-#Doto-2 {
-    font-family: Bld;
-    font-weight: bold;
-    font-size: 54px;
 }
 
 #subtitle hr {
@@ -208,7 +201,7 @@ body {
     #Doto-2 {
         font-family: Bld;
         font-weight: bold;
-        font-size: 25px;
+        font-size: 54px;
     }
     
     #subtitle hr {
@@ -229,13 +222,13 @@ body {
     }
     
     #subtitle {
-        font-size: 9px;
+        font-size: 18px;
         font-family: Bld;
         color: #3c2266;
     }
     
     #title2 {
-        font-size: 25px;
+        font-size: 50px;
         font-family: semibold;
     }
     
@@ -254,7 +247,6 @@ body {
     #Para1 {
         margin-top: 2%;
         width: 40%;
-        font-size: 9px;
     }
     
     #Para1 hr {
@@ -270,7 +262,7 @@ body {
     }
     
     #image1 img {
-        width: 250px;
+        width: 300px;
         height: auto;
     }
     
@@ -292,13 +284,12 @@ body {
     
     #top2 {
         font-family: semibold;
-        font-size: 25px;
+        font-size: 50px;
     }
     
     #Para2 {
         margin: 0px 15%;
         padding: 20px;
-        font-size: 9px;
     }
     
     #Map {
@@ -310,7 +301,7 @@ body {
     
     #Map img {
         width: 40%;
-        height: 40%;
+        height: auto;
     }
     
     #Para3 {
@@ -350,8 +341,7 @@ body {
         border: solid 1px #9482FF;   
     }
     
-    #txt2, #txt3, #txt4, #txt5, #txt6, #txt7, #txt8, #txt9, #txt10 {
-        font-size: 9px;
+    #txt3, #txt4, #txt5, #txt6, #txt7, #txt8, #txt9 {
         padding-top: 2%;
         padding-bottom: 2%;
     }
