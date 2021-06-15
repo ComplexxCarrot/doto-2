@@ -17,6 +17,7 @@ body {
     font-family: Poppins;
     background: rgba(148, 130, 255, 0.4);
     position: relative;
+    text-align: justify;
 }
 
 #Doto-2 {
@@ -30,8 +31,21 @@ body {
     margin: 0px 35%;
 }
 
-#subtitle {
+#sub {
+    color: #3c2266;
+    font-weight: bold;
     text-align: center;
+}
+
+#sub hr {
+    color: #9482FF;
+    border: solid 1px;
+    margin: 0% 35%;
+}
+
+#subtitle {
+    font-size: 18px;
+    font-family: Bld;
     color: #3c2266;
 }
 
@@ -57,6 +71,13 @@ body {
     width: 40%;
 }
 
+#Para1 hr {
+    margin-right: 80%;
+    position: relative;
+    top: -3%;
+    border: solid 1px#9482FF;
+}
+
 #image1 {
     position: relative;
     margin-top: 2%;
@@ -65,4 +86,310 @@ body {
 #image1 img {
     width: 400px;
     height: auto;
+}
+
+#doto-2-map {
+    margin-top: 3%;
+    color: #FFFFFF;
+    background-color: #3c2266;
+    text-align: center;
+    position: relative;
+    right: 1%;
+    width: 102.5%;
+}
+
+#top1 {
+    font-weight: bold;
+    margin-bottom: -1.5%;
+    padding-top: 20px;
+}
+
+#top2 {
+    font-family: semibold;
+    font-size: 50px;
+}
+
+#Para2 {
+    margin: 0px 15%;
+    padding: 20px;
+}
+
+#Map {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3% 10%;
+}
+
+#Map img {
+    width: 400px;
+    height: auto;
+}
+
+#Para3 {
+    width: 40%;
+}
+
+#Para3 hr {
+    margin-right: 80%;
+    position: relative;
+    top: -2%;
+    border: solid 1px #9482FF;
+}
+
+#Rune-Image {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+#Rune-Image img {
+    width: 108px;
+    height: auto;
+}
+
+#Rune {
+    margin-left: 15.5%;
+    margin-right: 15.5%;
+}
+
+#Rune #subtitle {
+    margin-bottom: -10px;
+}
+
+#Rune hr {
+    margin-right: 95%;
+    position: relative;
+    border: solid 1px #9482FF;   
+}
+
+#txt3, #txt4, #txt5, #txt6, #txt7, #txt8, #txt9 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#Creeps-and-Roshan, #Building, #Shops {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4% 10%;
+}
+
+#Para5, #Para6, #Para7 {
+    width: 40%;
+}
+
+#Para5 hr {
+    margin-right: 63%;
+    border: solid 1px#9482FF;
+    position: relative;
+    top: -2%;
+}
+
+#Creeps-and-Roshan img, #Building img, #Shops img {
+    width: 400px;
+    height: auto;
+}
+
+#Para6 hr, #Para7 hr {
+    border: solid 1px#9482FF;
+    position: relative;
+    top: -3%;
+}
+
+#Para6 hr {
+    margin-right: 84%;
+}
+
+#Para7 hr {
+    margin-right: 89%;
+}
+
+@media only screen and (max-width: 800px) {
+    #Doto-2 {
+        font-family: Bld;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    
+    #subtitle hr {
+        color: #9482FF;
+        margin: 0px 35%;
+    }
+    
+    #sub {
+        color: #3c2266;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    #sub hr {
+        color: #9482FF;
+        border: solid 1px;
+        margin: 0% 35%;
+    }
+    
+    #subtitle {
+        font-size: 9px;
+        font-family: Bld;
+        color: #3c2266;
+    }
+    
+    #title2 {
+        font-size: 25px;
+        font-family: semibold;
+    }
+    
+    #part1 {
+        margin-top: 2%;
+    }
+    
+    #Basic-Doto-Control {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 2%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    #Para1 {
+        margin-top: 2%;
+        width: 40%;
+        font-size: 9px;
+    }
+    
+    #Para1 hr {
+        margin-right: 80%;
+        position: relative;
+        top: -3%;
+        border: solid 1px#9482FF;
+    }
+    
+    #image1 {
+        position: relative;
+        margin-top: 2%;
+    }
+    
+    #image1 img {
+        width: 250px;
+        height: auto;
+    }
+    
+    #doto-2-map {
+        margin-top: 3%;
+        color: #FFFFFF;
+        background-color: #3c2266;
+        text-align: center;
+        position: relative;
+        right: 1%;
+        width: 102.5%;
+    }
+    
+    #top1 {
+        font-weight: bold;
+        margin-bottom: -1.5%;
+        padding-top: 20px;
+    }
+    
+    #top2 {
+        font-family: semibold;
+        font-size: 25px;
+    }
+    
+    #Para2 {
+        margin: 0px 15%;
+        padding: 20px;
+        font-size: 9px;
+    }
+    
+    #Map {
+        margin-top: 3%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 3% 10%;
+    }
+    
+    #Map img {
+        width: 40%;
+        height: 40%;
+    }
+    
+    #Para3 {
+        width: 40%;
+    }
+    
+    #Para3 hr {
+        margin-right: 80%;
+        position: relative;
+        top: -2%;
+        border: solid 1px #9482FF;
+    }
+    
+    #Rune-Image {
+        display: flex;
+        justify-content: center;
+        margin-top: 2%;
+    }
+    
+    #Rune-Image img {
+        width: 80%;
+        height: auto;
+    }
+    
+    #Rune {
+        margin-left: 15.5%;
+        margin-right: 15.5%;
+    }
+    
+    #Rune #subtitle {
+        margin-bottom: -10px;
+    }
+    
+    #Rune hr {
+        margin-right: 95%;
+        position: relative;
+        border: solid 1px #9482FF;   
+    }
+    
+    #txt2, #txt3, #txt4, #txt5, #txt6, #txt7, #txt8, #txt9, #txt10 {
+        font-size: 9px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    
+    #Creeps-and-Roshan, #Building, #Shops {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 4% 10%;
+    }
+    
+    #Para5, #Para6, #Para7 {
+        width: 40%;
+    }
+    
+    #Para5 hr {
+        margin-right: 63%;
+        border: solid 1px#9482FF;
+        position: relative;
+        top: -2%;
+    }
+    
+    #Creeps-and-Roshan img, #Building img, #Shops img {
+        width: 200px;
+        height: auto;
+    }
+    
+    #Para6 hr, #Para7 hr {
+        border: solid 1px#9482FF;
+        position: relative;
+        top: -3%;
+    }
+    
+    #Para6 hr {
+        margin-right: 84%;
+    }
+    
+    #Para7 hr {
+        margin-right: 89%;
+    }
+    
 }

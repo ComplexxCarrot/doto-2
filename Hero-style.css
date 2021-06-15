@@ -60,7 +60,7 @@ hr {
     position: relative;
 }
 
-.Sven, #Anti-Mage, #Invoker, #Pudge, #Medusa, #Storm-Spirit, #Wraith-King, #Drow-Ranger, #Zeus {
+#Sven, #Anti-Mage, #Invoker, #Pudge, #Medusa, #Storm-Spirit, #Wraith-King, #Drow-Ranger, #Zeus {
     width: 288px;
     height: 342px;
     border-radius: 5px;
@@ -222,7 +222,6 @@ hr {
         background-size: cover;
     }
     
-    
     #content1 img, #content2 img, #content3 img {
         width: 16px;
         height: 16px;
@@ -243,7 +242,7 @@ hr {
         color: white;
         font-size: 8px;
         text-align: center;
-        padding: 10px 10px;
+        padding: 0px 10px;
     }
     
     #Anti-Mage {
