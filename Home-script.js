@@ -23,29 +23,29 @@ $(document).ready(function() {
         }
     })
     $('#intelligence').hover(function(){
-        $('#overlay3').fadeIn();
-        $('#txt8').fadeIn();
+        $('#overlay4').fadeIn();
+        $('#txt11').fadeIn();
     })
     $('#intelligence').mouseleave(function(){
-        $('#overlay3').fadeOut();
-        $('#txt8').fadeOut();
+        $('#overlay4').fadeOut();
+        $('#txt11').fadeOut();
     })
 
     $('#Agility').hover(function(){
-        $('#overlay4').fadeIn();
-        $('#txt9').fadeIn();
+        $('#overlay5').fadeIn();
+        $('#txt12').fadeIn();
     })
     $('#Agility').mouseleave(function(){
-        $('#overlay4').fadeOut();
-        $('#txt9').fadeOut();
+        $('#overlay5').fadeOut();
+        $('#txt12').fadeOut();
     })
 
     $('#Strength').hover(function(){
-        $('#overlay5').fadeIn();
-        $('#txt10').fadeIn();
+        $('#overlay6').fadeIn();
+        $('#txt13').fadeIn();
     })
     $('#Strength').mouseleave(function(){
-        $('#overlay5').fadeOut();
-        $('#txt10').fadeOut();
+        $('#overlay6').fadeOut();
+        $('#txt13').fadeOut();
     })
 })

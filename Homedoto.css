@@ -1,6 +1,20 @@
+@font-face {
+    font-family: Poppins;
+    src: url("asset/Poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: semibold;
+    src: url("asset/Poppins/Poppins-SemiBoldItalic.ttf");
+}
+
+@font-face {
+    font-family: Bld;
+    src: url("asset/Poppins/Poppins-Bold.ttf");
+}
+
 #bg1 {
     position: absolute;
-    left: 0%;
 }
 
 #bg1 img {
@@ -46,15 +60,15 @@
 }
 
 #pt2  {
+    margin-left: 17%;
+    margin-right: 17%;
     color: white;
     position: relative;
     display: flex;
     justify-content: space-evenly;
     margin-top: 2%;
-    left: 15%;
     background-color: #3C2266;
-    width: 68%;
-    padding: 20px 0px;
+    padding: 20px 20px;
     font-size: 24px;
     text-align: center;
     border-radius: 5px;
@@ -123,11 +137,14 @@
 }
 
 #whole-slider {
+    margin-left: 10%;
+    margin-right: 10%;
     display: flex;
     justify-content: space-around;
 }
 
 #prev, #next {
+    cursor: pointer;
     margin-top: 8%;
 }
 
@@ -186,41 +203,64 @@
     border-radius: 100%;
 }
 
-#viewall {
-    margin-top: 50px;
+#view-all-heroes {
     background-image: url("asset/Heroes-Background.jpg");
+}
+
+#view-game-mechanic {
+    margin-top: 50px;
+    background-image: url("asset/Background-1.jpg");
+    background-position: center;
+}
+
+#view-all-heroes, #view-game-mechanic {
     background-size: cover;
     background-repeat: no-repeat;
-    left: -10px;
-    width: 102%;
+    margin-right: -1%;
+    margin-left: -1%;
     position: relative;
     text-align: center;
     color: white;
 }
 
-#overlay2 {
+#overlay2, #text {
     padding: 20px 20px;
-    background: rgba(60, 34, 102, 0.5);
+    background: rgba(60, 34, 102, 0.7);
+    padding-top: 30%;
 }
 
-#txt5 {
+#txt5, #txt8 {
+    margin-bottom: -20px;
+    position: static;
     font-size: 20px;
 }
 
-#txt6 {
-    font-size: 60px;
+#txt6, #txt9 {
+    font-family: semibold;
+    font-size: 66px;
+    margin-bottom: -25px;
 }
 
 #txt7 {
+    padding: 0px 13%;
+    margin-bottom: -30px;
+}
+
+#txt10 {
     padding: 0px 20%;
-    font-size: 20px;
+}
+
+#txt7, #txt10 {
+    position: static;
+    font-size: 16px;
 }
 
 
-#viewall button {
+#view-all-heroes button, #view-game-mechanic button {
     background: none;
     padding: 10px 10px;
-    font-size: 20px;
+    margin-top: -50px;
+    font-size: 24px;
     border: solid;
     border-radius: 5px;
     border-color: #9482FF;
@@ -229,51 +269,34 @@
 }
 
 #hero-type {
-    left: -10px;
-    width: 102%;
     position: relative;
     background-color: #3C2266;
-    padding: 50px 0;
+    padding: 50px 10%;
     display: flex;
     justify-content: space-evenly;
     color: white;
 }
 
-#intelligence {
-    background-image: url("asset/Storm-Spirit.jpg");
+#intelligence, #Agility, #Strength {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    border: solid 2px white;
     border-radius: 5px;
     width: 288px;
     height: 342px;
+}
+
+#intelligence {
+    background-image: url("asset/Storm-Spirit.jpg");
 }
 
 #Agility {
     background-image: url("asset/Medusa.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 5px;
-    width: 288px;
-    height: 342px;
 }
 
 #Strength {
     background-image: url("asset/Pudge.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 5px;
-    width: 288px;
-    height: 342px;
-}
-
-#overlay3 {
-    background: rgba(60, 34, 102, 0.5);
-    height: 100%;
-    border-radius: 5px;
-    display: none;
 }
 
 #overlay4 {
@@ -284,6 +307,13 @@
 }
 
 #overlay5 {
+    background: rgba(60, 34, 102, 0.5);
+    height: 100%;
+    border-radius: 5px;
+    display: none;
+}
+
+#overlay6 {
     background: rgba(60, 34, 102, 0.5);
     height: 100%;
     border-radius: 5px; 
@@ -301,16 +331,45 @@
     width: 30px;
 }
 
-#txt8, #txt9, #txt10 {
+#txt11, #txt12, #txt13 {
     padding: 20px 20px;
     padding-top: 0%;
     font-size: 16px;
 }
 
-#gradient {
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%);
+#gradient1 {
+    background-image: linear-gradient(transparent, #3c2266);
+    position: relative;
+    width: 103%;
+    right: 2%;
+    height: 15px;
+}
+
+#mechanic-button {
+    margin-bottom: -20px;
+    background-color: #3C2266;
+    position: relative;
+    margin-right: -1%;
+    margin-left: -1%;
+    padding: 40px;
+}
+
+#gradient2 {
+    background-image: linear-gradient(#3c2266, transparent);
+    position: static;
+    margin-right: -1%;
+    margin-left: -1%;
     height: 50px;
-    width: 100%;
-    position: absolute;
+    margin-bottom: -50px;
+    position: relative;
+}
+
+#gradient3 {
+    background-image: linear-gradient(transparent, #3c2266);
+    position: static;
+    margin-right: -1%;
+    margin-left: -1%;
+    height: 25px;
+    margin-bottom: -20px;
+    position: relative;
 }

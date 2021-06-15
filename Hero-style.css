@@ -51,8 +51,7 @@ hr {
 #row1, #row2, #row3 {
     display: flex;
     justify-content: space-around;
-    margin: 20px 9%;
-    margin-left: 10%;
+    margin: 20px 10%;
 }
 
 #name {
