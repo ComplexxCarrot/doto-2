@@ -136,6 +136,10 @@
     font-weight: bold;
 }
 
+#Game-overview {
+    margin-bottom: 5%;
+}
+
 #whole-slider {
     margin-left: 10%;
     margin-right: 10%;
@@ -213,7 +217,7 @@
     background-position: center;
 }
 
-#view-all-heroes, #view-game-mechanic {
+#view-all-heroes, #view-game-mechanic, #view-merchandise {
     background-size: cover;
     background-repeat: no-repeat;
     margin-right: -1%;
@@ -223,19 +227,32 @@
     color: white;
 }
 
-#overlay2, #text {
+#view-merchandise {
+    background-image: url("asset/Wind-Ranger.jpg");
+    margin-top: -20px;
+}
+
+#overlay2, #text, #overlay7 {
     padding: 20px 20px;
     background: rgba(60, 34, 102, 0.7);
     padding-top: 30%;
 }
 
-#txt5, #txt8 {
+#overlay7 {
+    padding: 20px 20px;
+    position: relative;
+    margin-bottom: -25px;
+    padding-bottom: 10%;
+    background: rgba(60, 34, 102, 0.7);
+}
+
+#txt5, #txt8, #txt14 {
     margin-bottom: -20px;
     position: static;
     font-size: 20px;
 }
 
-#txt6, #txt9 {
+#txt6, #txt9, #txt15 {
     font-family: semibold;
     font-size: 66px;
     margin-bottom: -25px;
@@ -248,6 +265,7 @@
 
 #txt10 {
     padding: 0px 20%;
+    margin-bottom: 25px;
 }
 
 #txt7, #txt10 {
@@ -263,15 +281,48 @@
     font-size: 24px;
     border: solid;
     border-radius: 5px;
-    border-color: #9482FF;
-    color: #9482FF;
+    align-items: center;
+    border-color: white;
+    color: white;
     cursor: pointer;
 }
 
+#view-all-heroes hr, #view-game-mechanic hr {
+    border: 1.5px #9482FF solid;
+    margin-left: 20%;
+    position: relative;
+    left: 25%;
+}
+
+#view-merchandise hr {
+    border: 1.5px #9482FF solid;
+    margin: 10px 35%;
+}
+
+#Game-overview hr {
+    margin-right: 70%;
+    border: #9482FF solid 1.5px;
+}
+
+#view-merchandise button {
+    background: none;
+    padding: 10px 50px;
+    font-size: 24px;
+    border: solid;
+    border-radius: 5px;
+    align-items: center;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+}
+
+
 #hero-type {
+    margin-top: -5%;
     position: relative;
     background-color: #3C2266;
-    padding: 50px 10%;
+    padding: 25px 10%;
+    padding-bottom: 50px;
     display: flex;
     justify-content: space-evenly;
     color: white;
@@ -366,10 +417,628 @@
 
 #gradient3 {
     background-image: linear-gradient(transparent, #3c2266);
-    position: static;
     margin-right: -1%;
     margin-left: -1%;
     height: 25px;
     margin-bottom: -20px;
     position: relative;
+}
+
+#gradient4 {
+    background-image: linear-gradient(#3c2266, transparent);
+    margin-right: -1%;
+    margin-left: -1%;
+    height: 40px;
+    position: relative;
+    margin-bottom: -40px;
+}
+
+#gradient5 {
+    background-image: linear-gradient(transparent, #3c2266);
+    position: relative;
+    margin-right: -1%;
+    margin-left: -1%;
+    bottom: 10%;
+    height: 25px;
+}
+
+#gradient0 {
+    background-image: linear-gradient(transparent, #3c2266);
+    position: relative;
+    margin-right: -1%;
+    margin-left: -1%;
+    margin-bottom: -55px;
+    height: 50px;
+}
+
+#skin, #announcer, #courier, #chest, #map {
+    border: solid 1px white;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    padding: 10px;
+    align-items: center;
+}
+
+#skin-text, #ann-text, #cour-text, #chest-text, #map-text {
+    padding: 5% 0px;
+    position: relative;
+    right: 10%;
+}
+
+#skin {
+    background-color: #9482FF;
+}
+
+#skin img, #announcer img, #courier img, #chest img, #map img {
+    width: 50px;
+    height: auto;
+}
+
+#merch-content {
+    margin-top: 4%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#merch-slider {
+    display: flex;
+    overflow: hidden;
+    width: 2500px;
+    height: 550px;
+}
+
+#image {
+    border: white 2px solid;
+    border-radius: 10px;
+}
+
+#whole-merch {
+    width: 500px;
+    height: 550px;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+#icon {
+    margin-top: 3%;
+}
+
+#merch-slides {
+    width: 496px;
+    display: flex;
+}
+
+#merch-slides img {
+    width: 496px;
+    height: 547px;
+    border-radius: 10px;
+}
+
+#slider {
+    width: 800px;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+#IS {
+    display: flex;
+    width: 2400px;
+}
+
+#slides {
+    display: flex;
+    width: 800px;
+}
+
+#slides img{
+    width: 400px;
+    height: 250px;
+}
+
+@media only screen and (max-width: 800px) {
+    #bg1 {
+        position: absolute;
+    }
+    
+    #bg1 img {
+        width: 100%;
+    }
+    
+    #overlay {
+        background-color: rgba(60, 34, 102);
+        position: absolute;
+        width: 100%;
+        height: 99%;
+        opacity: 0.5;
+    }
+    
+    #pt1 {
+        margin: 0 10%;
+        padding: 10px 10px;
+        position: relative;
+    }
+    
+    #welcome {
+        color: #9482FF;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    
+    #txt1 {
+        color: #FFFFFF;
+        font-size: 20px;
+        padding: 0%;
+    }
+    
+    #txt2 {
+        color: #FFFFFF;
+        font-size: 10px;
+    }
+    
+    #line1 {
+        margin-right: 88%;
+        text-align: left;
+        border: 2px #9482FF solid;
+    }
+    
+    #pt2  {
+        margin-left: 21%;
+        margin-right: 21%;
+        color: white;
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 2%;
+        background-color: #3C2266;
+        padding: 10px 10px;
+        font-size: 12px;
+        text-align: center;
+        border-radius: 5px;
+    }
+    
+    #event1 {
+        background-image: url("asset/Lina.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        border-radius: 5px;
+    }
+    
+    #left, #mid, #right {
+        font-size: 9px;
+    }
+    
+    #left {
+        height: 76px;
+        width: 80px;
+        padding: 13px 21px;
+    }
+    
+    #overlay1 {
+        background: rgba(148, 130, 255, 0.5);
+        border-radius: 5px;
+    }
+    
+    #event2 {
+        background-image: url("asset/Templar.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 5px;
+    }
+    
+    #mid {
+        height: 76px;
+        width: 80px;
+        padding: 13px 21px;
+    }
+    
+    #event3 {
+        background-image: url("asset/Faceless-Void.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 5px;
+    }
+    
+    #right {
+        height: 76px;
+        width: 80px;
+        padding: 13px 21px;
+    }
+    
+    #txt3 {
+        font-size: 25px;
+        text-align: center;
+        margin: 25px;
+        margin-left: 30%;
+        margin-right: 30%;
+        color: #3C2266;
+        font-weight: bold;
+    }
+    
+    #Game-overview {
+        margin-bottom: 5%;
+    }
+    
+    #whole-slider {
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    #prev, #next {
+        cursor: pointer;
+        margin-top: 8%;
+    }
+    
+    
+    #prev img, #next img {
+        width: 15px;
+        height: 15px;
+    }
+    
+    #slider {
+        width: 400px;
+        justify-content: space-around;
+        overflow: hidden;
+    }
+    
+    #IS {
+        width: 1200px;
+    }
+    
+    #slides {
+        display: flex;
+        width: 400px;
+    }
+    
+    #slides img{
+        width: 200px;
+        height: 125px;
+    }
+    
+    #txt4 {
+        margin-left: 5%;
+        margin-top: 2%;
+        color: #3C2266;
+    }
+    
+    #subtitle {
+        font-weight: bold;
+        font-size: 18px;
+    }
+    
+    #caption {
+        font-size: 10px;
+        margin-top: 2%;
+    }
+    
+    #whole-slider button {
+        height: 50%;
+        font-size: 10px;
+        cursor: pointer;
+        width: 14px;
+        margin-top: 8%;
+        color: white;
+        border: none;
+        background-color: #3C2266;
+        border-radius: 100%;
+    }
+    
+    #view-all-heroes {
+        background-image: url("asset/Heroes-Background.jpg");
+    }
+    
+    #view-game-mechanic {
+        background-image: url("asset/Background-1.jpg");
+        background-position: center;
+    }
+    
+    #view-all-heroes, #view-game-mechanic, #view-merchandise {
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-right: -1%;
+        margin-left: -1%;
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    
+    #view-merchandise {
+        background-image: url("asset/Wind-Ranger.jpg");
+        margin-top: -20px;
+    }
+    
+    #overlay2, #text, #overlay7 {
+        padding: 20px 20px;
+        background: rgba(60, 34, 102, 0.7);
+        padding-top: 30%;
+    }
+    
+    #overlay7 {
+        padding: 20px 20px;
+        position: relative;
+        padding-bottom: 10%;
+        background: rgba(60, 34, 102, 0.7);
+    }
+    
+    #txt5, #txt8, #txt14 {
+        position: static;
+        font-size: 10px;
+        margin-bottom: 0%;
+    }
+    
+    #txt6, #txt9, #txt15 {
+        font-family: semibold;
+        font-size: 33px;
+        /* margin-bottom: 3%; */
+    }
+    
+    #txt7 {
+        padding: 0px 13%;
+        margin-bottom: 1%;
+    }
+    
+    #txt10 {
+        padding: 0px 20%;
+        margin-bottom: 25px;
+    }
+    
+    #txt7, #txt10 {
+        position: static;
+        font-size: 8px;
+    }
+    
+    #view-all-heroes button, #view-game-mechanic button {
+        background: none;
+        padding: 10px 10px;
+        margin-top: -50px;
+        font-size: 12px;
+        border: solid;
+        border-radius: 5px;
+        align-items: center;
+        border-color: white;
+        color: white;
+        cursor: pointer;
+    }
+    
+    #view-all-heroes hr, #view-game-mechanic hr {
+        border: 5px #9482FF solid;
+        margin-top: 20px;
+        margin-left: 20%;
+        position: relative;
+        left: 25%;
+    }
+    
+    #view-merchandise hr {
+        border: 1.5px #9482FF solid;
+        margin: 20px 35%;
+    }
+    
+    #Game-overview hr {
+        margin-right: 70%;
+        border: #9482FF solid 1.5px;
+    }
+    
+    #view-merchandise button {
+        background: none;
+        padding: 10px 50px;
+        font-size: 12px;
+        border: solid;
+        border-radius: 5px;
+        align-items: center;
+        border-color: white;
+        color: white;
+        cursor: pointer;
+    }
+    
+    
+    #hero-type {
+        position: relative;
+        background-color: #3C2266;
+        margin-top: -5%;
+        padding: 50px 10%;
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+    }
+    
+    #intelligence, #Agility, #Strength {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border: solid 2px white;
+        border-radius: 5px;
+        width: 144px;
+        height: 171px;
+    }
+    
+    #intelligence {
+        background-image: url("asset/Storm-Spirit.jpg");
+    }
+    
+    #Agility {
+        background-image: url("asset/Medusa.jpg");
+    }
+    
+    #Strength {
+        background-image: url("asset/Pudge.jpg");
+    }
+    
+    #overlay4 {
+        background: rgba(60, 34, 102, 0.5);
+        height: 100%;
+        border-radius: 5px;
+        display: none;
+    }
+    
+    #overlay5 {
+        background: rgba(60, 34, 102, 0.5);
+        height: 100%;
+        border-radius: 5px;
+        display: none;
+    }
+    
+    #overlay6 {
+        background: rgba(60, 34, 102, 0.5);
+        height: 100%;
+        border-radius: 5px; 
+        display: none;
+    }
+    
+    #sub {
+        padding: 10px 10px;
+        display: flex;
+        font-size: 11px;
+    }
+    
+    #sub img {
+        height: 15px;
+        width: 15px;
+    }
+    
+    #txt11, #txt12, #txt13 {
+        padding: 10px 10px;
+        padding-top: 0%;
+        font-size: 8px;
+    }
+    
+    #gradient1 {
+        background-image: linear-gradient(transparent, #3c2266);
+        position: relative;
+        width: 103%;
+        right: 2%;
+        height: 15px;
+    }
+    
+    #mechanic-button {
+        margin-bottom: -20px;
+        background-color: #3C2266;
+        position: relative;
+        margin-right: -1%;
+        margin-left: -1%;
+        padding: 40px;
+    }
+    
+    #gradient2 {
+        background-image: linear-gradient(#3c2266, transparent);
+        position: static;
+        margin-right: -1%;
+        margin-left: -1%;
+        height: 50px;
+        margin-bottom: -50px;
+        position: relative;
+    }
+    
+    #gradient3 {
+        background-image: linear-gradient(transparent, #3c2266);
+        margin-right: -1%;
+        margin-left: -1%;
+        height: 25px;
+        margin-bottom: -20px;
+        position: relative;
+    }
+    
+    #gradient4 {
+        background-image: linear-gradient(#3c2266, transparent);
+        margin-right: -1%;
+        margin-left: -1%;
+        height: 40px;
+        position: relative;
+        margin-bottom: -40px;
+    }
+    
+    #gradient5 {
+        background-image: linear-gradient(transparent, #3c2266);
+        position: relative;
+        margin-right: -1%;
+        margin-left: -1%;
+        bottom: 10%;
+        height: 25px;
+    }
+    
+    #gradient0 {
+        background-image: linear-gradient(transparent, #3c2266);
+        position: relative;
+        margin-right: -1%;
+        margin-left: -1%;
+        margin-bottom: -55px;
+        height: 50px;
+    }
+    
+    #skin, #announcer, #courier, #chest, #map {
+        border: solid 1px white;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        padding: 10px;
+        align-items: center;
+    }
+    
+    #skin-text, #ann-text, #cour-text, #chest-text, #map-text {
+        padding: 5% 0px;
+        position: relative;
+        right: 20%;
+    }
+    
+    #skin {
+        background-color: #9482FF;
+    }
+    
+    #skin img, #announcer img, #courier img, #chest img, #map img {
+        width: 25px;
+        height: auto;
+    }
+    
+    #merch-content {
+        margin-top: 4%;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #merch-slider {
+        display: flex;
+        overflow: hidden;
+        width: 1875px;
+        height: 413px;
+    }
+    
+    #image {
+        border: white 2px solid;
+        border-radius: 10px;
+    }
+    
+    #whole-merch {
+        margin-right: 10%;
+        width: 375px;
+        height: 413px;
+        justify-content: space-around;
+        overflow: hidden;
+    }
+    
+    #icon {
+        margin-top: 3%;
+        margin-left: 5%;
+    }
+    
+    #merch-slides {
+        width: 371px;
+        display: flex;
+    }
+    
+    #merch-slides img {
+        width: 371px;
+        height: 409px;
+        border-radius: 10px;
+    }
 }

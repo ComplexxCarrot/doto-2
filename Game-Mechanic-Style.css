@@ -198,12 +198,6 @@ body {
 }
 
 @media only screen and (max-width: 800px) {
-    #Doto-2 {
-        font-family: Bld;
-        font-weight: bold;
-        font-size: 54px;
-    }
-    
     #subtitle hr {
         color: #9482FF;
         margin: 0px 35%;
@@ -222,13 +216,13 @@ body {
     }
     
     #subtitle {
-        font-size: 18px;
+        font-size: 12px;
         font-family: Bld;
         color: #3c2266;
     }
     
     #title2 {
-        font-size: 50px;
+        font-size: 25px;
         font-family: semibold;
     }
     
@@ -262,7 +256,7 @@ body {
     }
     
     #image1 img {
-        width: 300px;
+        width: 225px;
         height: auto;
     }
     
@@ -272,24 +266,26 @@ body {
         background-color: #3c2266;
         text-align: center;
         position: relative;
-        right: 1%;
-        width: 102.5%;
+        margin-left: -1%;
+        margin-right: -1%;
     }
     
     #top1 {
         font-weight: bold;
-        margin-bottom: -1.5%;
+        margin-bottom: -1%;
         padding-top: 20px;
+        font-size: 10px;
     }
     
     #top2 {
         font-family: semibold;
-        font-size: 50px;
+        font-size: 25px;
     }
-    
+
     #Para2 {
         margin: 0px 15%;
         padding: 20px;
+        font-size: 9px;
     }
     
     #Map {
@@ -326,11 +322,6 @@ body {
         height: auto;
     }
     
-    #Rune {
-        margin-left: 15.5%;
-        margin-right: 15.5%;
-    }
-    
     #Rune #subtitle {
         margin-bottom: -10px;
     }
@@ -341,9 +332,14 @@ body {
         border: solid 1px #9482FF;   
     }
     
+    #txt1, #txt2, #txt10 {
+        font-size: 9px;
+    }
+
     #txt3, #txt4, #txt5, #txt6, #txt7, #txt8, #txt9 {
         padding-top: 2%;
         padding-bottom: 2%;
+        font-size: 9px;
     }
     
     #Creeps-and-Roshan, #Building, #Shops {
@@ -364,7 +360,7 @@ body {
     }
     
     #Creeps-and-Roshan img, #Building img, #Shops img {
-        width: 200px;
+        width: 225px;
         height: auto;
     }
     

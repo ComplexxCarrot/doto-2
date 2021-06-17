@@ -80,3 +80,158 @@ body {
     top: 2px;
     font-size: 24px;
 }
+
+#footer {
+    position: relative;
+    background: #3c2266;
+    right: 1%;
+    width: 102%;
+}
+
+#Logo {
+    padding-top: 5px;
+    position: relative;
+    text-align: center;
+}
+
+#Logo img {
+    width: 250px;
+    height: auto;
+}
+
+#Social-Media {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    margin: 0px 40%;
+}
+
+#Social-Media img{
+    width: 45px;
+    height: auto;
+}
+
+#copyright {
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        font-family: poppins;
+        background: rgba(148, 130, 255, 0.4);
+        position: relative;
+        margin: 0;
+        padding: 0;
+        overflow-x:hidden;
+    }
+    
+    #logo {
+        margin-top: 1%;
+    }
+
+    #header1 {
+        list-style: none;
+        text-decoration: none;
+        display: flex;
+        position: relative;
+        width: 100%;
+        margin-top: 30px;
+        font-size: 8px;
+        justify-content: space-evenly;
+    }
+    
+    #header {
+        margin-left: 8%;
+        margin-right: 8%;
+        display: flex;
+        margin-bottom: 20px;
+        position: relative;
+        justify-content: space-evenly;
+    }
+    
+    #header1 img {
+        height: 17px;
+        width: auto;
+    }
+    
+    #header1 a {
+        text-decoration: none;
+        position: relative;
+        color: #FFFFFF;
+        font-family: poppins;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px;
+        width: 100px;
+    }
+    
+    #header a:hover {
+        color: lightgray;
+    }
+    
+    #register {
+        border: 2px solid white;
+        list-style: none;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        width: 22.5%;
+        border-radius: 5px;
+        position: relative;
+        bottom: 10px;
+        margin-left: 10%;
+    }
+    
+    #register img {
+        width: auto;
+        height: 17px;
+        margin-top: 5.5%;
+    }
+    #register a {
+        font-size: 12px;
+        margin: -5px;
+    }
+    
+    #footer {
+        margin-top: 0px;
+        position: relative;
+        background: #3c2266;
+        margin-left: -1%;
+        /* margin-right: -1%; */
+        padding-top: 1px;
+    }
+    
+    #Logo {
+        padding-top: 5px;
+        position: relative;
+        text-align: center;
+    }
+    
+    #Logo img {
+        width: 125px;
+        height: auto;
+    }
+    
+    #Social-Media {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 10px;
+        margin: 0px 50%;
+    }
+
+    #Social-Media img{
+        width: 30px;
+        height: auto;
+    }
+
+    #copyright {
+        color: #FFFFFF;
+        text-align: center;
+        padding: 10px 0px;
+        font-size: 8px;
+    }
+
+}
