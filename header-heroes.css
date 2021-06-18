@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+}
 #header1 {
     list-style: none;
     text-decoration: none;
