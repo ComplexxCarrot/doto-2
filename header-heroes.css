@@ -9,6 +9,11 @@
 }
 
 @font-face {
+    font-family: semibold1;
+    src: url("asset/Poppins/Poppins-SemiBold.ttf");
+}
+
+@font-face {
     font-family: Bld;
     src: url("asset/Poppins/Poppins-Bold.ttf");
 }
@@ -16,9 +21,12 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: poppins;
+    font-family: Poppins;
     background: rgba(148, 130, 255, 0.4);
     text-align: justify;
+}
+#logo{
+    margin-right:40px;
 }
 #header1 {
     align-items: flex-start;
@@ -28,7 +36,7 @@ body{
     position: relative;
     width: 70%;
     margin-top: 30px;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 }
 
 #header2 {
@@ -70,9 +78,9 @@ body{
 }
 
 #register img {
-    width: auto;
-    height: 35px;
-    margin-bottom: 2px;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
 }
 
 #Doto-2 {
@@ -90,11 +98,14 @@ body{
 }
 
 #header1 a {
+    padding: 3px 0px;
+    margin: 0px 20px;   
     text-decoration: none;
     position: relative;
     color: #FFFFFF;
     font-family: Poppins;
-    font-weight: 600;
+    
+    /* font-weight: 600; */
     line-height: 30px;
     width: 200px;
     font-size: 18px;
@@ -106,22 +117,29 @@ body{
 
 
 #register {
-    border-style: solid;
-    border-color: white;
-    list-style: none;
+    border: 3px solid #ffffff50;
+    padding: 15px 25px;
+    margin: 10px 30px;
+    border-radius: 5px;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+
+    /* display: flex;
     text-align: center;
     border-radius: 5px;
     position: relative;
-    padding: 5px;
-    padding-left: 6px;
+    padding: 10px; */
+    /* padding-left: 6px;
     bottom: 10px;
-    margin-left: 10%;
+    margin-left: 10%; */
 }
 
 #register a {
     top: 2px;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 #footer {
@@ -227,28 +245,27 @@ body{
     }
     
     #register {
-        border-style: solid;
-        border-color: white;
-        list-style: none;
-        display: flex;
-        text-align: justify;
+        border: 3px solid #ffffff50;
+        padding: 5px 15px;
+        /* margin: 10px 30px; */
         border-radius: 5px;
-        position: relative;
-        margin-left: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        /* position:relative; */
     }
     
     #register a {
-        font-size: 12px;
-        right: 4%;
-        position: relative;
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 2px;
     }
     
     #register img {
-        position: relative;
-        right: 4%;
-        width: auto;
-        height: 16px;
-        padding-top: 7%;
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
     }
     
     #footer {
