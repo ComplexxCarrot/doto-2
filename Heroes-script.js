@@ -1,83 +1,83 @@
 $(document).ready(function() {
     $('#Sven').hover(function(){
-        $('#overlay1').show();
-        $('#hov1').show();
+        $('#overlay1').slideDown();
+        $('#hov1').slideDown();
         $('#txt1').hide();
     })
     $('#Sven').mouseleave(function(){
         $('#hov1').hide();
         $('#overlay1').hide();
-        $('#txt1').show();
+        $('#txt1').fadeIn();
     })
     $('#Anti-Mage').hover(function(){
-        $('#overlay2').show();
-        $('#hov2').show();
+        $('#overlay2').slideDown();
+        $('#hov2').slideDown();
         $('#txt2').hide();
     })
     $('#Anti-Mage').mouseleave(function(){
         $('#hov2').hide();
         $('#overlay2').hide();
-        $('#txt2').show();
+        $('#txt2').fadeIn();
     })
     $('#Invoker').hover(function(){
-        $('#overlay3').show();
-        $('#hov3').show();
+        $('#overlay3').slideDown();
+        $('#hov3').slideDown();
         $('#txt3').hide();
     })
     $('#Invoker').mouseleave(function(){
         $('#hov3').hide();
         $('#overlay3').hide();
-        $('#txt3').show();
+        $('#txt3').fadeIn();
     })
     $('#Pudge').hover(function(){
-        $('#overlay4').show();
-        $('#hov4').show();
+        $('#overlay4').slideDown();
+        $('#hov4').slideDown();
         $('#txt4').hide();
     })
     $('#Pudge').mouseleave(function(){
         $('#hov4').hide();
         $('#overlay4').hide();
-        $('#txt4').show();
+        $('#txt4').fadeIn();
     })
     $('#Medusa').hover(function(){
-        $('#overlay5').show();
-        $('#hov5').show();
+        $('#overlay5').slideDown();
+        $('#hov5').slideDown();
         $('#txt5').hide();
     })
     $('#Medusa').mouseleave(function(){
         $('#hov5').hide();
         $('#overlay5').hide();
-        $('#txt5').show();
+        $('#txt5').fadeIn();
     })
     $('#Storm-Spirit').hover(function(){
-        $('#overlay6').show();
-        $('#hov6').show();
+        $('#overlay6').slideDown();
+        $('#hov6').slideDown();
         $('#txt6').hide();
     })
     $('#Storm-Spirit').mouseleave(function(){
         $('#hov6').hide();
         $('#overlay6').hide();
-        $('#txt6').show();
+        $('#txt6').fadeIn();
     })
     $('#Wraith-King').hover(function(){
-        $('#overlay7').show();
-        $('#hov7').show();
+        $('#overlay7').slideDown();
+        $('#hov7').slideDown();
         $('#txt7').hide();
     })
     $('#Wraith-King').mouseleave(function(){
         $('#hov7').hide();
         $('#overlay7').hide();
-        $('#txt7').show();
+        $('#txt7').fadeIn();
     })
     $('#Drow-Ranger').hover(function(){
-        $('#overlay8').show();
-        $('#hov8').show();
+        $('#overlay8').slideDown();
+        $('#hov8').slideDown();
         $('#txt8').hide();
     })
     $('#Drow-Ranger').mouseleave(function(){
         $('#hov8').hide();
         $('#overlay8').hide();
-        $('#txt8').show();
+        $('#txt8').fadeIn();
     })
     $('#Zeus').hover(function(){
         $('#overlay9').show();
