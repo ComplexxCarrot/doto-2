@@ -94,13 +94,4 @@ $(document).ready(function() {
         $(this).css('background', '#9482FF');
         merchslides.animate({'margin-left': -(secwidth*3)}, 1000);
     })
-    $('#map').click(function(){
-        $('#skin').css('background', 'none');
-        $('#announcer').css('background', 'none');
-        $('#courier').css('background', 'none');
-        $('#chest').css('background', 'none');
-        $('#map').css('background', 'none');
-        $(this).css('background', '#9482FF');
-        merchslides.animate({'margin-left': -(secwidth*4)}, 1000);
-    })
 })

@@ -465,6 +465,7 @@
     padding: 5% 0px;
     position: relative;
     right: 10%;
+    margin-bottom: 30px;
 }
 
 #skin {
@@ -987,6 +988,7 @@
         padding: 5% 0px;
         position: relative;
         right: 20%;
+        margin-bottom: 20px;
     }
     
     #skin {
