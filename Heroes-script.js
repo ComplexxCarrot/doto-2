@@ -80,8 +80,8 @@ $(document).ready(function() {
         $('#txt8').fadeIn();
     })
     $('#Zeus').hover(function(){
-        $('#overlay9').show();
-        $('#hov9').show();
+        $('#overlay9').slideDown();
+        $('#hov9').slideDown();
         $('#txt9').hide();
     })
     $('#Zeus').mouseleave(function(){

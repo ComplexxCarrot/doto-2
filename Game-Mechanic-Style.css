@@ -1,24 +1,3 @@
-@font-face {
-    font-family: Poppins;
-    src: url("asset/Poppins/Poppins-Medium.ttf");
-}
-
-@font-face {
-    font-family: semibold;
-    src: url("asset/Poppins/Poppins-SemiBoldItalic.ttf");
-}
-
-@font-face {
-    font-family: Bld;
-    src: url("asset/Poppins/Poppins-Bold.ttf");
-}
-
-body {
-    font-family: Poppins;
-    background: rgba(148, 130, 255, 0.4);
-    text-align: justify;
-}
-
 #isi{
     margin:0 5%;
 }
