@@ -195,6 +195,7 @@ body{
 }
 
 #txt4 {
+    margin-top:0;
     margin-left: 5%;
     /* margin-top: 2%; */
     margin-bottom: 10%;
@@ -734,8 +735,9 @@ body{
     }
     
     #txt4 {
+        margin-top:0;
         margin-left: 5%;
-        margin-top: 2%;
+        /* margin-top: 2%; */
         color: #3C2266;
     }
     
