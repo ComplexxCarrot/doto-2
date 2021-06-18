@@ -20,18 +20,6 @@ body {
     overflow-x:hidden;
 }
 
-#header {
-    margin-bottom: 20px;
-    margin-top: -1%;
-    position: relative;
-    justify-content: space-evenly;
-    background-image: url("asset/Homepage-background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    right: 1%;
-    width: 102%;
-}
 
 #overlay0 {
     width: 101%;
@@ -47,14 +35,14 @@ body {
     position: relative;
     width: 100%;
     margin-top: 30px;
-    font-size: 16px;
+    font-size: 20px;
     justify-content: space-evenly;
 }
 #header1 a {
     text-decoration: none;
     position: relative;
     color: #FFFFFF;
-    font-family: poppins;
+    font-family: Poppins;
     font-style: normal;
     font-weight: 600;
     line-height: 30px;
@@ -331,7 +319,7 @@ hr {
         text-decoration: none;
         position: relative;
         color: #FFFFFF;
-        font-family: poppins;
+        font-family: Poppins;
         font-style: normal;
         font-weight: 600;
         line-height: 30px;

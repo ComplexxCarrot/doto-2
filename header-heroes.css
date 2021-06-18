@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+}
 #header1 {
     list-style: none;
     text-decoration: none;
@@ -11,19 +16,22 @@
 
 #header {
     margin-bottom: 20px;
-    margin-top: -1%;
     position: relative;
     justify-content: space-evenly;
     background-image: url("asset/Homepage-background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    margin-left: -1%;
-    margin-right: -1%;
+
 }
 
 #fill {
-    margin: 0px;
+    margin:0 10%;
+    /* margin: 0px; */
+    display: flex;
+    /* margin-bottom: 20px; */
+    position: relative;
+    justify-content: space-evenly;
 }
 
 #overlay0 {
@@ -55,7 +63,7 @@
     text-decoration: none;
     position: relative;
     color: #FFFFFF;
-    font-family: poppins;
+    font-family: Poppins;
     font-weight: 600;
     line-height: 30px;
     width: 200px;
@@ -178,7 +186,7 @@
         text-decoration: none;
         position: relative;
         color: #FFFFFF;
-        font-family: poppins;
+        font-family: Poppins;
         font-style: normal;
         font-weight: 600;
         line-height: 30px;
