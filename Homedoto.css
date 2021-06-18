@@ -9,6 +9,11 @@
 }
 
 @font-face {
+    font-family: semibold1;
+    src: url("asset/Poppins/Poppins-SemiBold.ttf");
+}
+
+@font-face {
     font-family: Bld;
     src: url("asset/Poppins/Poppins-Bold.ttf");
 }
@@ -45,6 +50,7 @@ body{
 }
 
 #txt1 {
+    font-family:semibold1;
     color: #FFFFFF;
     font-size: 40px;
     padding: 0%;
@@ -86,6 +92,10 @@ body{
 }
 
 #left, #mid, #right {
+    display:flex;
+        align-items: center;
+        justify-content: center;;
+        text-align:center;
     font-size: 18px;
 }
 
@@ -96,6 +106,9 @@ body{
 }
 
 #overlay1 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
     background: rgba(148, 130, 255, 0.5);
     border-radius: 5px;
 }
@@ -129,6 +142,7 @@ body{
 }
 
 #txt3 {
+    font-family: semibold1;
     font-size: 50px;
     text-align: center;
     margin: 50px;
@@ -357,21 +371,21 @@ body{
 }
 
 #overlay4 {
-    background: rgba(60, 34, 102, 0.5);
+    background: rgba(60, 34, 102, 0.7);
     height: 100%;
     border-radius: 5px;
     display: none;
 }
 
 #overlay5 {
-    background: rgba(60, 34, 102, 0.5);
+    background: rgba(60, 34, 102, 0.7);
     height: 100%;
     border-radius: 5px;
     display: none;
 }
 
 #overlay6 {
-    background: rgba(60, 34, 102, 0.5);
+    background: rgba(60, 34, 102, 0.7);
     height: 100%;
     border-radius: 5px; 
     display: none;
@@ -380,15 +394,19 @@ body{
 #sub {
     padding: 20px 20px;
     display: flex;
+    justify-content: center;
+    font-weight: 600;
     font-size: 22px;
 }
 
 #sub img {
     height: 30px;
     width: 30px;
+    margin-right:10px;
 }
 
 #txt11, #txt12, #txt13 {
+    text-align:justify;
     padding: 20px 20px;
     padding-top: 0%;
     font-size: 16px;
@@ -618,6 +636,9 @@ body{
     }
     
     #left, #mid, #right {
+        display:flex;
+        align-items: center;
+        justify-content: center;;
         font-size: 9px;
     }
     
