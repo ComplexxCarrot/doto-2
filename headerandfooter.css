@@ -19,8 +19,6 @@ body {
 }
 
 #header {
-    margin-left: 8%;
-    margin-right: 8%;
     display: flex;
     margin-bottom: 20px;
     position: relative;

@@ -17,8 +17,6 @@ body {
     font-family: Poppins;
     background: rgba(148, 130, 255, 0.4);
     position: relative;
-    margin: 0;
-    padding: 0;
     overflow-x:hidden;
 }
 
@@ -115,22 +113,152 @@ hr {
     border: solid 2px;
 }
 
+#title {
+    color: #3c2266;
+    font-weight: bold;
+    text-align: center;
+}
+
+#title hr {
+    color: #9482FF;
+    border: solid 1.5px;
+    margin: 0% 37.5%;
+}
+
+#sub2 {
+    font-family: semibold;
+    font-size: 50px;
+}
+
+#whole {
+    background-color: #3c2266;
+    padding: 2% 10%;
+    margin: 2% -1%;
+}
+
+#sub3 {
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    color: white;
+    margin: 2px;
+}
+
+#text {
+    margin-left: 1%;
+}
+
+#overlay {
+    display: none;
+    position: absolute;
+    width: 230px;
+    height: 170px;
+    background: rgba(60, 34, 102, 0.5)
+}
+
+#image:hover #overlay {
+    display: block;
+}
+
+#image:hover #hov {
+    display: block;
+}
+
+#hov {
+    display: none;
+    background: none;
+    border: solid 2px white;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+    padding: 5px;
+    top: 60%;
+    left: 23%;
+    border-radius: 5px;
+    width: 50%;
+    cursor: pointer;
+}
+
+#sub3 img {
+    border: solid 1px white;
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: auto;
+}
+
+#skin, #treasure, #announcer, #courier {
+    display: flex;
+    justify-content: space-around;
+}
+
+#prev1, #next1, #prev2, #next2, #prev3, #next3, #prev4, #next4 {
+    cursor: pointer;
+    margin-top: 7%;
+}
+
+
+#prev1 img, #next1 img, #prev2 img, #next2 img, #prev3 img, #next3 img, #prev4 img, #next4 img {
+    width: 30px;
+    height: 30px;
+}
+
+#name, #price {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#whole-slider {
+    width: 750px;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+#skin-slider, #treasure-slider, #announcer-slider, #courier-slider {
+    width: 750px;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+#skin-slides, #treasure-slides, #announcer-slides, #courier-slides {
+    width: 1250px;
+    display: flex;
+}
+
+#image {
+    margin-right: 25px;
+    width: 250px;
+    /* display: flex; */
+}
+
+#image img{
+    border: ridge #3c2266 2px;
+    width: 225px;
+    height: 165px;
+}
+
 #footer {
-    margin-top: 75px;
+    margin-top: 50px;
     position: relative;
     background: #3c2266;
     right: 1%;
     width: 102%;
+    margin-bottom: -1%;
     padding-top: 1px;
 }
 
-#Rectangle {
-    width: 20%;
-    left: 40%;
-    height: 50px;
-    background-color: #9482ff;
+#Logo {
+    padding-top: 5px;
     position: relative;
-    margin-top: 10px;
+    text-align: center;
+}
+
+#Logo img {
+    width: 250px;
+    height: auto;
 }
 
 #Social-Media {
@@ -140,9 +268,275 @@ hr {
     margin: 0px 40%;
 }
 
+#Social-Media img{
+    width: 45px;
+    height: auto;
+}
+
 #copyright {
     color: #FFFFFF;
     text-align: center;
     padding: 10px 0px;
     font-size: 15px;
+}
+
+@media only screen and (max-width: 800px) {
+    #logo {
+        position: relative;
+        margin-top: 7px;
+    }
+    #header1 {
+        list-style: none;
+        text-decoration: none;
+        display: flex;
+        position: relative;
+        width: 100%;
+        margin-top: 30px;
+        font-size: 10px;
+        justify-content: space-evenly;
+    }
+    
+    #header {
+        margin-bottom: 20px;
+        margin-top: -1%;
+        position: relative;
+        justify-content: space-evenly;
+        background-image: url("asset/Homepage-background.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    #overlay0 {
+        width: 102%;
+        background-color: rgba(60, 34, 102, 0.5);
+        right: 1%;
+        padding-top: 1%;
+    }
+    
+    #Doto-2 {
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 2%;
+        padding-bottom: 5%;
+        font-size: 25px;
+    }
+    
+    #header1 img {
+        height: 16px;
+        width: auto;
+    }
+    
+    #header1 a {
+        text-decoration: none;
+        position: relative;
+        color: #FFFFFF;
+        font-family: poppins;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px;
+        width: 100px;
+        font-size: 10px;
+    }
+    
+    #header a:hover {
+        color: lightgray;
+    }
+    
+    #register {
+        border-style: solid;
+        border-color: white;
+        list-style: none;
+        display: flex;
+        text-align: justify;
+        border-radius: 5px;
+        position: relative;
+        margin-left: 5%;
+    }
+    
+    #register a {
+        font-size: 12px;
+        right: 4%;
+        position: relative;
+    }
+    
+    #register img {
+        position: relative;
+        right: 4%;
+        width: auto;
+        height: 16px;
+        padding-top: 7%;
+    }
+
+    #title {
+        color: #3c2266;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    #title hr {
+        color: #9482FF;
+        border: solid 1.5px;
+        margin: 0% 37.5%;
+    }
+    
+    #sub2 {
+        font-family: semibold;
+        font-size: 25px;
+    }
+    
+    #whole {
+        background-color: #3c2266;
+        padding: 2% 10%;
+        margin: 2% -1%;
+    }
+    
+    #sub3 {
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        color: white;
+        margin: 2px;
+    }
+    
+    #text {
+        margin-left: 1%;
+        margin-top: 1%;
+    }
+    
+    #overlay {
+        display: none;
+        position: absolute;
+        width: 115px;
+        height: 85px;
+        background: rgba(60, 34, 102, 0.5)
+    }
+    
+    #image:hover #overlay {
+        display: block;
+    }
+    
+    #image:hover #hov {
+        display: block;
+    }
+    
+    #hov {
+        display: none;
+        background: none;
+        border: solid 2px white;
+        color: white;
+        font-size: 9px;
+        position: relative;
+        text-align: center;
+        padding: 5px;
+        top: 60%;
+        left: 15%;
+        border-radius: 5px;
+        width: 50%;
+        cursor: pointer;
+    }
+    
+    #sub3 img {
+        border: solid 1px white;
+        padding: 10px;
+        border-radius: 50%;
+        width: 20px;
+        height: auto;
+    }
+
+    #name, #price {
+        font-size: 9px;
+    }
+    
+    #skin, #treasure, #announcer, #courier {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    #prev1, #next1, #prev2, #next2, #prev3, #next3, #prev4, #next4 {
+        cursor: pointer;
+        margin-top: 7%; 
+    }
+    
+    
+    #prev1 img, #next1 img, #prev2 img, #next2 img, #prev3 img, #next3 img, #prev4 img, #next4 img {
+        width: 15px;
+        height: 15px;
+    }
+    
+    #name, #price {
+        color: #FFFFFF;
+        text-align: center;
+    }
+    
+    #whole-slider {
+        width: 375px;
+        margin-left: 10%;
+        margin-right: 10%;
+        justify-content: space-around;
+        overflow: hidden;
+    }
+    
+    #skin-slider, #treasure-slider, #announcer-slider, #courier-slider {
+        width: 375px;
+        justify-content: space-around;
+        overflow: hidden;
+    }
+    
+    #skin-slides, #treasure-slides, #announcer-slides, #courier-slides {
+        width: 625px;
+        display: flex;
+    }
+    
+    #image {
+        margin-right: 25px;
+        width: 125px;
+        /* display: flex; */
+    }
+    
+    #image img{
+        border: ridge #3c2266 2px;
+        width: 100px;
+        height: 82px;
+    }
+    
+    #footer {
+        margin-top: 32px;
+        position: relative;
+        background: #3c2266;
+        margin-left: -1%;
+        /* margin-right: -1%; */
+        padding-top: 1px;
+    }
+    
+    #Logo {
+        padding-top: 5px;
+        position: relative;
+        text-align: center;
+    }
+    
+    #Logo img {
+        width: 125px;
+        height: auto;
+    }
+    
+    #Social-Media {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 10px;
+        margin: 0px 50%;
+    }
+
+    #Social-Media img{
+        width: 30px;
+        height: auto;
+    }
+
+    #copyright {
+        color: #FFFFFF;
+        text-align: center;
+        padding: 10px 0px;
+        font-size: 8px;
+    }
+
 }
