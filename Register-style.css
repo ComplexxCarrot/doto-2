@@ -3,6 +3,7 @@ h1 {
 }
 
 form {
+    color:#3c2266;
     font-family: Poppins;
     border-style: ridge;
     /* border-radius: 5px; */
@@ -72,6 +73,8 @@ select {
 
 
 button {
+    cursor: pointer;
+    font-family:semibold1;
     border-width: 1px;
     border-radius: 5px;
     background-color: #3c2266;
