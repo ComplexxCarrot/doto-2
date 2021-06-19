@@ -258,6 +258,32 @@ body{
         align-items: center;
         /* position:relative; */
     }
+
+    #header2  {
+        display:none;
+        margin-top: 5%;
+        font-size: 20px;
+        width:50%;
+        /* display:flex;
+        justify-content: flex-end;
+        align-items: flex-end; */
+    }
+
+    #header2 img {
+        height: 17px;
+        width: auto;
+    }
+    
+    #header2 a {
+        text-decoration: none;
+        position: relative;
+        color: #FFFFFF;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px;
+        width: 100px;
+    }
     
     #register a {
         font-size: 10px;

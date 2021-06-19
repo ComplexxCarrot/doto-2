@@ -29,30 +29,34 @@
             <div id="Doto-2">DOTO 2</div>
         </div>
     </div>
-    <form action="" id="Form">
-        <h1>Registration</h1>
-        <table id="tabel">
-            <tr><label for="Username">Username: </label></tr>
-            <input type="text" id="username" placeholder="Enter your Username">
-            <tr><label for="Email">Email: </label></tr>
-            <tr><input type="text" id="email" placeholder="Enter your email"></tr>
-            <tr><label for="Password">Password: </label></tr>
-            <tr><input type="Password" id="password" placeholder="Enter your password"></tr>
-            <tr><label for="Region">Region: </label></tr>
-            <tr></tr><select name="region" id="region" placeholder="region">
-                <option value="choose">Choose your region</option>
-                <option value="SEA">Southeast Asia</option>
-                <option value="NA">North America</option>
-                <option value="SA">South America</option>
-                <option value="WEU">Western Europe</option>
-                <option value="EEU">Eeastern Europe</option>
-                <option value="CN">China</option>
-            </select></tr>
-            <tr>Date of Birth: </tr>
-            <tr><input type="date"></tr>
-            <tr><button onclick="validate();">Submit</button></tr>
-        </table>
-    </form>
+    <div id="bg-image">
+        <div id="overlay0">
+            <form action="" id="Form">
+                <h1>Registration</h1>
+                <div id="tabel">
+                    <label for="Username">Username: </label>
+                    <input type="text" id="username" placeholder="Enter your Username">
+                    <label for="Email">Email: </label>
+                    <input type="text" id="email" placeholder="Enter your email">
+                    <label for="Password">Password: </label>
+                    <input type="Password" id="password" placeholder="Enter your password">
+                    <label for="Region">Region: </label>
+                    <select name="region" id="region" placeholder="region">
+                        <option value="choose">Choose your region</option>
+                        <option value="SEA">Southeast Asia</option>
+                        <option value="NA">North America</option>
+                        <option value="SA">South America</option>
+                        <option value="WEU">Western Europe</option>
+                        <option value="EEU">Eeastern Europe</option>
+                        <option value="CN">China</option>
+                    </select>
+                    <label>Date of Birth:</label>
+                    <input type="date">
+                    <button onclick="validate();">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
     <script src="Register-js.js"></script>
     <div id="footer">
         <div id="Logo"><img src="logo.png" alt=""></div>
