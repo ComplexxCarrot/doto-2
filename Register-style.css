@@ -29,6 +29,12 @@ form {
     height:100%;
 }
 
+#region{
+    color:#3c2266;
+    font-family:Poppins;
+}
+
+
 input {
     width: 100%;
     display: flex;
