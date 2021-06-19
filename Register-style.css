@@ -3,7 +3,6 @@ h1 {
 }
 
 form {
-    color:#3c2266;
     font-family: Poppins;
     border-style: ridge;
     /* border-radius: 5px; */
@@ -29,12 +28,6 @@ form {
     padding:3% 0;
     height:100%;
 }
-
-#region{
-    color:#3c2266;
-    font-family:Poppins;
-}
-
 
 input {
     width: 100%;
@@ -62,10 +55,6 @@ select {
     color: white;
 }
 
-select.decorated option:hover {
-    box-shadow: teal;
-}
-
 #tabel{
     display:flex;
     align-items: center;
@@ -79,8 +68,6 @@ select.decorated option:hover {
 
 
 button {
-    cursor: pointer;
-    font-family:semibold1;
     border-width: 1px;
     border-radius: 5px;
     background-color: #3c2266;
