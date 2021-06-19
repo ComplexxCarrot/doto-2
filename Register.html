@@ -7,8 +7,6 @@
     <link rel="stylesheet" href="header-heroes.css">
     <link rel="stylesheet" href="Register-style.css">
     <title>Doto 2 Merchandise</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="Register-js.js"></script>
 </head>
 <body>
     <div id="header">
@@ -21,7 +19,7 @@
                     <li id="gamemechanics"><a href="Game Mechanics.html">GAME MECHANICS</a></li>
                     <li id="merchandise"><a href="Merchandise.html">MERCHANDISE</a></li>
                 </div>
-                <div id="header1">
+                <div id="header2">
                     <li id="register">
                         <img id="steam" src="asset/SosialMedia/Steam-Circle-White.png" alt="">
                         <a href="Register.html">REGISTER NOW</a>
@@ -31,21 +29,39 @@
             <div id="Doto-2">DOTO 2</div>
         </div>
     </div>
-        <div class="container">
-            <form action="">
-                <label for="usrname">Username</label>
-                <input type="text" id="usrname" name="usrname" required><br><br>
-                <label for="pssword">Password</label>
-                <input type="password" id="pssword" name="pssword" required><br><br>
-                <label for="email">Email</label>
-                <input type="text" id="email" name="email" required><br><br>
-                <label for="region">Region</label>
-                <input type="text" id="region" name="region" required><br><br>
-                <label for="Date">Date of Birth</label>
-                <input type="Date" id="DoB" name="DoB" required><br><br>
-                <input type="submit" value="Submit">
-            </form>    
+    <form action="" id="Form">
+        <h1>Registration</h1>
+        <table id="tabel">
+            <tr><label for="Username">Username: </label></tr>
+            <input type="text" id="username" placeholder="Enter your Username">
+            <tr><label for="Email">Email: </label></tr>
+            <tr><input type="text" id="email" placeholder="Enter your email"></tr>
+            <tr><label for="Password">Password: </label></tr>
+            <tr><input type="Password" id="password" placeholder="Enter your password"></tr>
+            <tr><label for="Region">Region: </label></tr>
+            <tr></tr><select name="region" id="region" placeholder="region">
+                <option value="choose">Choose your region</option>
+                <option value="SEA">Southeast Asia</option>
+                <option value="NA">North America</option>
+                <option value="SA">South America</option>
+                <option value="WEU">Western Europe</option>
+                <option value="EEU">Eeastern Europe</option>
+                <option value="CN">China</option>
+            </select></tr>
+            <tr>Date of Birth: </tr>
+            <tr><input type="date"></tr>
+            <tr><button onclick="validate();">Submit</button></tr>
+        </table>
+    </form>
+    <script src="Register-js.js"></script>
+    <div id="footer">
+        <div id="Logo"><img src="logo.png" alt=""></div>
+        <div id="Social-Media">
+            <img src="asset/SosialMedia/Instagram-Circle-White.png" alt="">
+            <img src="asset/SosialMedia/Twitter-Circled-White.png" alt="">
+            <img src="asset/SosialMedia/Facebook-Circled-White.png" alt="">
         </div>
+        <div id="copyright">© DOTO 2 All Rights Reserved</div>
     </div>
 </body>
 </html>
